@@ -8,4 +8,13 @@
 ],
 	"host_permissions": [
 		"*://*.prodigygame.com/*",
-		"https://raw.githubusercontent.com/*",
+		"https://raw.githubusercontent.
+},
+	"declarative_net_request" : {
+		"rule_resources" : [
+			{
+}
+		]
+	},
+	"content_scripts": [{
+		"matches": ["https://math.prodigygame.com/*"],
